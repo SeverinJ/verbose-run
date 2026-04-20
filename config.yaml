@@ -1,0 +1,100 @@
+baseURL: "https://verbose.run/"
+languageCode: "en-us"
+title: "verbose"
+theme: "PaperMod"
+
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+
+pagination:
+  pagerSize: 10
+
+minify:
+  disableXML: true
+  minifyOutput: true
+
+params:
+  env: production
+  title: "verbose"
+  description: "Notes on security, tech, and other curiosities."
+  keywords: [security, cloud, ai, homelab, tutorials, howtos, infosec, pentesting, red team, blue team, purple team, hacking, bug bounty]
+  author: "Severin Jörg"
+  defaultTheme: auto
+  disableThemeToggle: false
+  ShowReadingTime: true
+  ShowShareButtons: false
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  ShowRssButtonInSectionTermList: true
+  UseHugoToc: true
+  disableSpecial1stPost: false
+  disableScrollToTop: false
+  comments: false
+  hidemeta: false
+  hideSummary: false
+  showtoc: true
+  tocopen: false
+
+  assets:
+    disableHLJS: true
+    disableFingerprinting: false
+    favicon: "/favicon.ico"
+    favicon16x16: "/favicon-16x16.png"
+    favicon32x32: "/favicon-32x32.png"
+    apple_touch_icon: "/apple-touch-icon.png"
+
+  label:
+    text: "verbose"
+
+  homeInfoParams:
+    Title: "verbose"
+    Content: >
+      Notes on security and things I find interesting.
+
+  socialIcons:
+    - name: github
+      url: "https://github.com/SeverinJ"
+    - name: rss
+      url: "/index.xml"
+
+  editPost:
+    URL: "https://github.com/SeverinJ/verbose-run/tree/main/content"
+    Text: "Suggest Changes"
+    appendFilePath: true
+
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    keys: ["title", "permalink", "summary", "content"]
+
+menu:
+  main:
+    - identifier: posts
+      name: Posts
+      url: /posts/
+      weight: 10
+    - identifier: tags
+      name: Tags
+      url: /tags/
+      weight: 20
+    - identifier: search
+      name: Search
+      url: /search/
+      weight: 30
+    - identifier: about
+      name: About
+      url: /about/
+      weight: 40
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
