@@ -48,7 +48,16 @@ jobs:
           hugo \
             --gc \
             --minify \
-            --baseURL "${{ steps.pages.outputs.base_url }}/"
+            --baseURL "https://verbose.run/"
+
+      - name: Debug - list public directory
+        run: |
+          echo "=== Root of public ==="
+          ls -la public/ || echo "public/ does not exist"
+          echo "=== Recursive listing ==="
+          find public/ -type f | head -50
+          echo "=== File count ==="
+          find public/ -type f | wc -l
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
