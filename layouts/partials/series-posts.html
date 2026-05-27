@@ -1,0 +1,19 @@
+{{- if .Params.series }}
+{{- $name := index .Params.series 0 }}
+<div class="post-series">
+  <p><a href="" id="series"></a>Part of the <em>{{ $name }}</em> series:</p>
+  {{- $nameSlug := $name | urlize }}
+  {{- $series := index .Site.Taxonomies.series $nameSlug }}
+  <ol class="series">
+    {{- range $series.Pages.ByDate }}
+    <li>
+      {{- if eq .File.UniqueID $.File.UniqueID }}
+      <strong>{{ .LinkTitle }}</strong> <em>(this post)</em>
+      {{- else }}
+      <a href="{{ .Permalink }}">{{ .LinkTitle }}</a>
+      {{- end }}
+    </li>
+    {{- end }}
+  </ol>
+</div>
+{{- end }}

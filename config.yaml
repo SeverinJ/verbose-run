@@ -15,6 +15,11 @@ minify:
   disableXML: true
   minifyOutput: true
 
+taxonomies:
+  category: categories
+  tag: tags
+  series: series
+
 params:
   env: production
   title: "verbose"
@@ -45,6 +50,7 @@ params:
     favicon16x16: "/favicon-16x16.png"
     favicon32x32: "/favicon-32x32.png"
     apple_touch_icon: "/apple-touch-icon.png"
+    favicon_svg: "/favicon.svg"
 
   label:
     text: "verbose"
@@ -92,6 +98,10 @@ menu:
       name: About
       url: /about/
       weight: 40
+    - identifier: series
+      name: Series
+      url: /series/
+      weight: 15
 
 outputs:
   home:

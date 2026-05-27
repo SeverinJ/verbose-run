@@ -6,21 +6,23 @@
     <description>Recent content on verbose</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 20 Apr 2026 18:41:36 +0200</lastBuildDate>
+    <lastBuildDate>Tue, 21 Apr 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>About</title>
       <link>http://localhost:1313/about/</link>
-      <pubDate>Mon, 20 Apr 2026 18:41:36 +0200</pubDate>
+      <pubDate>Tue, 21 Apr 2026 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/about/</guid>
-      <description></description>
+      <description>&lt;p&gt;Hi, I&amp;rsquo;m Severin.&lt;/p&gt;
+&lt;p&gt;I&amp;rsquo;m a Technical Information Security Officer based in Bern, Switzerland. My day-to-day work revolves around cloud security, collaboration platform security, and the question of how we secure AI systems and the decisions they shape. This blog collects notes on what I&amp;rsquo;m learning, occasional essays, and things I find worth writing down.&lt;/p&gt;
+&lt;p&gt;Outside of work, I spend my time running, cycling, and strength training — preferably outdoors and preferably somewhere with mountains nearby. I cook a lot, and I&amp;rsquo;m always planning the next trip, whether that&amp;rsquo;s a long-haul adventure through Scandinavia or a weekend gravel ride. I read widely across security, tech, thrillers, and nonfiction, and I have a weakness for good podcasts on true crime and science.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Hello, Verbose</title>
-      <link>http://localhost:1313/posts/hello-verbose/</link>
-      <pubDate>Mon, 20 Apr 2026 15:00:00 +0200</pubDate>
-      <guid>http://localhost:1313/posts/hello-verbose/</guid>
-      <description>A first post to see if the pipes leak.</description>
+      <title>Writing things down</title>
+      <link>http://localhost:1313/posts/writing-things-down/</link>
+      <pubDate>Tue, 21 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/writing-things-down/</guid>
+      <description>Why I&amp;rsquo;m writing, and what this place is for.</description>
     </item>
   </channel>
 </rss>

@@ -1,0 +1,4 @@
+Contact: mailto:security@verbose.run
+Expires: 2027-04-21T00:00:00.000Z
+Preferred-Languages: en, de
+Canonical: https://verbose.run/.well-known/security.txt
